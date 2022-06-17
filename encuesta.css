@@ -1,4 +1,4 @@
-/* GLOBAL */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,12 +19,13 @@
     list-style: none;
   }
   
-  .container {
+  .container 
+  {
     width: 90%;
-    margin: auto;
+    
   }
   
-  /* Navigation */
+
   
   .nav-main { 
     font-size: 17px;
@@ -70,6 +71,9 @@
     z-index: 2;
     display: none;
   }
+  hr {
+  margin: 10px 0;
+}
 
   
 
