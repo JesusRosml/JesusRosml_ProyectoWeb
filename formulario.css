@@ -26,7 +26,7 @@ body{
     border: 5px solid #f363be;
     border-radius: 10px;
     padding: 30px 60px;
-    top: 290px;
+    top: 4px;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
@@ -35,7 +35,7 @@ body{
 .formulario input,label,button{
     display: block;
     width: 100%;
-    margin: 5px 0;
+    margin: 20px 0;
 }
 
 .formulario input{
@@ -46,15 +46,17 @@ body{
 }
 
 .login-button{
-    margin-top: 120px;
+
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     border: none;
     height: 40px;
+   
     background-color: #f363be;
     box-shadow: 1px 1px 2px #000;
     color: #fff;
+    border-radius: 10px;
 }
 
 .formulario button:hover{
@@ -62,13 +64,32 @@ body{
 }
 
 .re-button{
-    margin-top: 10px;
+    
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     border: none;
-    height: 30px;
-    background-color: #7f265d;
+    height: 40px;
+    width: 390px;
+    background-color: #f363be;
     box-shadow: 1px 1px 2px #000;
-    color: rgb(219, 211, 211);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.two{
+    margin-top: 500px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #f363be;
+    padding-top: 20px;
+   
 }
